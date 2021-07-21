@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(1393720.jpg);
+}
+
+.card{
+    background-color: beige;
+}

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.felex{
+    display: flex;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.carousel{
+    height: 392px;
+    width: 755px;
+    margin: 0px;
+}
+
+.hr1{
+    margin: 5px;
+    border: 2px solid black;
+}
+
+hr{
+    opacity: 100%;
+    color: black;
+}
+
+.cara{
+    height: 400px;
+    width: 1200px;
+}
+
+.img1{
+    width: 673px;
+    height: 400px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.td{
+    color: lightgreen
+}
+
+.pngn1{
+    width: 162px;
+    height: 109px;
+    padding: 12px;
+}
+
+.pngflex{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin: 12px 0px;
+}
+
+#zin{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#topm{
+    margin-top: 60px;
+}
+
+.cardf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-img{
+    height: 195px;
+    padding: 34px;
+}
+
+.flexxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms{
+    width: 75%;
+    margin-left: 23px;
+}
+
+.foot{
+    background-color: #292b2c;
+    margin: 0;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: wheat;
+}
+
+footer ul li{
+    color: wheat;
+}
+
+.link-light{
+    color: wheat;
+}
+
+.h5{
+    color: white;
+}
+
+svg{
+    background-color: white;
+}
+
+.privacy{
+    color: white;
+}
+
+#date{
+    color: white;
+}
+
+.hover-ani:hover{
+    width: 18rem;
+    animation-name: hover;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    cursor: pointer;
+}
+
+@keyframes hover {
+    0% {
+    transform: scale(1, 1);
+    }
+    100% {
+    transform: scale(1.05, 1.05);
+    }
+    }
+
+.col{
+    background-color: white;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+.card-body a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card-body a:hover{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a:hover{
+    color: black;
+}
+
+.priv-h{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+#padh2{
+    padding-top: 12px;
+}
+
+.navbar{
+    top: 0;
+}
